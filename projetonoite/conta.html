@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resumo da Conta</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/logo-icon.png" />
+    <link rel="stylesheet" href="css/conta.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav">
+        <div class="menu-logo">
+          <a href="index.html"><img src="img/logo-final-svg.svg" /></a>
+        </div>
+        <nav>
+          <ul class="menu-1">
+            <li id="links"><a href="catalog.html">Catálogo</a></li>
+            <li id="links"><a href="index.html">Sobre</a></li>
+            <li id="links"><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-2">
+        <img id="search-icon" src="img/icons8-search.svg" />
+        <div class="dropdown">
+          <button class="menu-2-login">Minha conta</button>
+          <div class="dropdown-content">
+            <a href="meus-cursos.html">Meus cursos</a>
+            <a href="conta.html">Configurações</a>
+          </div>
+        </div>
+        <a class="menu-2-nova-conta" href="login.html">Sair</a>
+      </div>
+    </header>
+    <div class="espaco-header"></div>
+    <div class="conta">
+      <div class="usuario">
+        <h2>Configurações da conta</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" value="Pedro" />
+
+          <label for="nome">Sobrenome:</label>
+          <input type="text" id="nome" value="Nascimento" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" value="email@exemplo.com" />
+
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" value="********" />
+        </form>
+        <div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <button type="submit" onclick="msg()">Salvar Alterações</button>
+        <div id="mensagem">Alterações realizadas com sucesso.</div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-col">
+        <div class="footer-col-1">
+          <h1>Sobre nós</h1>
+          <a href="index.html">Partner</a>
+          <a href="#">Contato</a>
+        </div>
+        <div class="footer-col-1">
+          <h1>Outros</h1>
+          <a href="catalog.html">Catálogo</a>
+          <a href="login.html">Faça login</a>
+          <a href="register.html">Crie uma conta</a>
+        </div>
+      </div>
+      <div class="footer-img">
+        <img src="img/logo-footer.svg" />
+      </div>
+    </footer>
+    <script src="js/conta.js"></script>
+  </body>
+</html>
